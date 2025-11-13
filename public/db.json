@@ -1,0 +1,30 @@
+{ 
+"issues": [ 
+{ 
+"id": 1, 
+"title": "Landing page hero broken on mobile", 
+"description": "Hero image overlaps text on small screens.", 
+      "status": "todo", 
+      "priority": "high", 
+      "assigneeId": 2, 
+      "createdAt": "2025-09-20T10:00:00Z" 
+    }, 
+    { 
+      "id": 2, 
+      "title": "API timeout for search", 
+      "description": "Search occasionally times out when query is long.", 
+      "status": "inprogress", 
+      "priority": "medium", 
+      "assigneeId": 1, 
+      "createdAt": "2025-09-21T09:40:00Z" 
+    } 
+  ], 
+  "users": [ 
+    { "id": 1, "name": "Aisha Khan", "avatar": "" }, 
+    { "id": 2, "name": "Ravi Patel", "avatar": "" } 
+  ], 
+  "comments": [ 
+    { "id": 1, "issueId": 1, "userId": 2, "body": "I will take a look.", 
+"createdAt": "2025-09-20T11:00:00Z" } 
+  ] 
+}
